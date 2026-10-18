@@ -1,0 +1,48 @@
+<!doctype html>
+<!-- Sagt dem Browser: Das ist modernes HTML5 (ohne diese Zeile rät er und rendert im "Quirks Mode"). -->
+
+<!-- lang="de": Seite ist deutsch – wichtig für Vorleseprogramme, Silbentrennung und Suchmaschinen. -->
+<html lang="de">
+
+<!-- <head>: unsichtbare Infos ÜBER die Seite (wie der Beipackzettel einer Packung). -->
+<head>
+  <!-- Zeichensatz UTF-8, damit Umlaute wie ä, ö, ü und ß richtig angezeigt werden. -->
+  <meta charset="utf-8">
+
+  <!-- Auf dem Handy: Seite in echter Gerätebreite anzeigen statt winzig verkleinert. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Text im Browser-Tab und in Lesezeichen. -->
+  <title>Lektion 1 – Meine erste Seite</title>
+
+  <!-- Etwas CSS, damit die Seite lesbar aussieht. Später lagern wir das in eine eigene .css-Datei aus. -->
+  <style>
+    body {
+      font-family: system-ui, sans-serif; /* Schrift des Betriebssystems – auf dem Mac z. B. San Francisco */
+      max-width: 40rem;                   /* Zeilen nicht zu lang, sonst liest es sich schlecht */
+      margin: 2rem auto;                  /* oben/unten Abstand, links/rechts automatisch = zentriert */
+      padding: 0 1rem;                    /* Innenabstand, damit Text auf dem Handy nicht am Rand klebt */
+      line-height: 1.6;                   /* Zeilenabstand für bessere Lesbarkeit */
+    }
+  </style>
+</head>
+
+<!-- <body>: alles, was man im Browserfenster SIEHT. -->
+<body>
+  <!-- <h1>: Hauptüberschrift. Pro Seite genau eine. -->
+  <h1>Hallo Welt!</h1>
+
+  <!-- <p>: ein Absatz Fließtext. -->
+  <p>Das ist meine erste HTML-Seite im Lernprojekt <strong>Claude Code lernen</strong>.</p>
+
+  <!-- <h2>: Zwischenüberschrift, eine Ebene unter <h1>. -->
+  <h2>Was ich in Lektion 1 gelernt habe</h2>
+
+  <!-- <ul> = ungeordnete Liste (Punkte), jedes <li> ist ein Listeneintrag. -->
+  <ul>
+    <li>Ein Git-Repository anlegen und den ersten Commit machen</li>
+    <li>Ordner und Dateien strukturiert anlegen</li>
+    <li>Das Grundgerüst einer HTML-Seite</li>
+  </ul>
+</body>
+</html>
