@@ -1,0 +1,11 @@
+# Dateien, die Git ignorieren soll – sie landen nie in einem Commit.
+
+# macOS legt diese unsichtbare Datei in jedem Ordner an, den der Finder öffnet
+# (speichert z. B. Symbolposition und Ansicht). Für das Projekt nutzlos.
+.DS_Store
+
+# Editor-Einstellungen (VS Code), persönlich und nicht Teil des Projekts
+.vscode/
+
+# Lokale Claude-Code-Einstellungen, die nur auf meinem Rechner gelten
+.claude/settings.local.json
