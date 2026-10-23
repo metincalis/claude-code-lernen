@@ -7,6 +7,8 @@ Mein Lernprojekt, um Schritt für Schritt mit Claude Code zu arbeiten: Dateien a
 ```
 claude-code-lernen/
 ├── README.md          ← diese Datei: Überblick über das Projekt
+├── CLAUDE.md          ← Regeln für Claude Code in diesem Repo
+├── .gitignore         ← Dateien, die Git ignorieren soll (z. B. .DS_Store)
 └── uebungen/          ← eine Datei pro Lektion
     └── lektion-1.html
 ```
