@@ -9,8 +9,11 @@ claude-code-lernen/
 ├── README.md          ← diese Datei: Überblick über das Projekt
 ├── CLAUDE.md          ← Regeln für Claude Code in diesem Repo
 ├── .gitignore         ← Dateien, die Git ignorieren soll (z. B. .DS_Store)
+├── css/
+│   └── style.css      ← gemeinsames Aussehen aller Übungen
 └── uebungen/          ← eine Datei pro Lektion
-    └── lektion-1.html
+    ├── lektion-1.html
+    └── lektion-2.html
 ```
 
 ## Übungen ansehen
@@ -24,3 +27,4 @@ Es braucht keine Installation und keinen Server.
 
 - [x] Lektion 1.1: Repo angelegt, erster Commit
 - [x] Lektion 1.2: Ordner `uebungen/` und erste HTML-Datei
+- [x] Lektion 2: CSS in `css/style.css` auslagern und per `<link>` einbinden

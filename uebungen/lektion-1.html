@@ -15,16 +15,9 @@
   <!-- Text im Browser-Tab und in Lesezeichen. -->
   <title>Lektion 1 – Meine erste Seite</title>
 
-  <!-- Etwas CSS, damit die Seite lesbar aussieht. Später lagern wir das in eine eigene .css-Datei aus. -->
-  <style>
-    body {
-      font-family: system-ui, sans-serif; /* Schrift des Betriebssystems – auf dem Mac z. B. San Francisco */
-      max-width: 40rem;                   /* Zeilen nicht zu lang, sonst liest es sich schlecht */
-      margin: 2rem auto;                  /* oben/unten Abstand, links/rechts automatisch = zentriert */
-      padding: 0 1rem;                    /* Innenabstand, damit Text auf dem Handy nicht am Rand klebt */
-      line-height: 1.6;                   /* Zeilenabstand für bessere Lesbarkeit */
-    }
-  </style>
+  <!-- Das Aussehen kommt aus der gemeinsamen CSS-Datei (seit Lektion 2).
+       "../" heißt: einen Ordner nach oben, also von uebungen/ ins Hauptverzeichnis, dann in css/. -->
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <!-- <body>: alles, was man im Browserfenster SIEHT. -->
