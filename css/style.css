@@ -1,0 +1,20 @@
+/*
+  Gemeinsames Stylesheet für alle Übungen.
+  Jede HTML-Datei bindet es mit <link rel="stylesheet" href="../css/style.css"> ein.
+  Vorteil: Eine Änderung hier wirkt sofort auf ALLE Seiten – wie ein Rezept,
+  das man an einer Stelle anpasst, statt es in jedem Kochbuch neu abzuschreiben.
+*/
+
+body {
+  font-family: system-ui, sans-serif; /* Schrift des Betriebssystems – auf dem Mac z. B. San Francisco */
+  max-width: 40rem;                   /* Zeilen nicht zu lang, sonst liest es sich schlecht */
+  margin: 2rem auto;                  /* oben/unten Abstand, links/rechts automatisch = zentriert */
+  padding: 0 1rem;                    /* Innenabstand, damit Text auf dem Handy nicht am Rand klebt */
+  line-height: 1.6;                   /* Zeilenabstand für bessere Lesbarkeit */
+}
+
+code {
+  background: #f2f2f2;                /* hellgrauer Kasten hebt Code vom Fließtext ab */
+  padding: 0.1em 0.3em;               /* etwas Luft um den Code */
+  border-radius: 0.25em;              /* leicht abgerundete Ecken */
+}

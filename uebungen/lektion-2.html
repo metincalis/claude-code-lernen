@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lektion 2 – CSS auslagern</title>
+
+  <!-- <link> verbindet diese Seite mit einer externen CSS-Datei.
+       rel="stylesheet": Die verlinkte Datei ist ein Stylesheet (nicht z. B. ein Icon).
+       href: der Pfad zur Datei – relativ zu DIESER HTML-Datei:
+         ..        = einen Ordner nach oben (aus uebungen/ heraus)
+         /css/     = in den Ordner css hinein
+         style.css = diese Datei laden -->
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <h1>Lektion 2: CSS auslagern</h1>
+
+  <p>Diese Seite enthält <strong>kein eigenes CSS</strong>. Trotzdem sieht sie genauso aus wie Lektion 1,
+     weil beide dieselbe Datei <code>css/style.css</code> laden.</p>
+
+  <h2>Warum auslagern?</h2>
+  <!-- <ol> = geordnete Liste: Die Einträge werden automatisch nummeriert. -->
+  <ol>
+    <li><strong>Einmal ändern, überall wirksam:</strong> Farbe oder Schrift in <code>style.css</code> anpassen – alle Seiten ziehen mit.</li>
+    <li><strong>Aufgeräumter Code:</strong> HTML beschreibt den Inhalt, CSS das Aussehen. Jede Datei hat eine Aufgabe.</li>
+    <li><strong>Schneller:</strong> Der Browser lädt die CSS-Datei einmal und merkt sie sich (Cache) für die nächste Seite.</li>
+  </ol>
+
+  <h2>Selbst ausprobieren</h2>
+  <ol>
+    <li>Öffne <code>css/style.css</code> in einem Editor.</li>
+    <li>Ändere bei <code>body</code> z. B. <code>line-height: 1.6;</code> auf <code>2;</code> und speichere.</li>
+    <li>Lade Lektion 1 <em>und</em> Lektion 2 im Browser neu (Cmd + R): Beide ändern sich.</li>
+    <li>Stell den Wert wieder zurück.</li>
+  </ol>
+
+  <!-- Typischer Fehler: Stimmt der Pfad in href nicht, lädt der Browser kein CSS – ohne Fehlermeldung.
+       Die Seite erscheint dann in Standard-Schrift über die volle Breite. Erstes Prüfen: den Pfad. -->
+  <p><a href="lektion-1.html">← zurück zu Lektion 1</a></p>
+</body>
+</html>

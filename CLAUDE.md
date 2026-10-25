@@ -25,6 +25,7 @@ Lernprojekt: Ich lerne Schritt für Schritt Webentwicklung (HTML, CSS, später J
 ## Projektaufbau
 
 - `uebungen/` – eine Datei pro Lektion, Namensschema `lektion-<nummer>.html`
+- `css/style.css` – gemeinsames Stylesheet; jede Übung bindet es mit `<link rel="stylesheet" href="../css/style.css">` ein, statt eigenes `<style>` zu schreiben
 - `README.md` – Überblick und Lernfortschritt; nach jeder neuen Lektion die Checkliste ergänzen
 
 ## Konventionen
